@@ -1,0 +1,154 @@
+header {
+    grid-area: cabecalho;
+    background-color: rgb(255, 238, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+   }
+   @media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+   header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   }
+.principal {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 100px 450px 150px;
+        grid-template-areas: "cabecalho cabecalho" 
+                             "secao barra-lateral" 
+                             "rodape rodape";
+}
+.container {
+    display: inline-block;
+    position: relative;
+  }
+  .container p,.a.b.c.d.e.f {
+    position: absolute;
+    top: 10px;
+    right: 950px;
+    font-size: 40px;
+    color: white;
+  }
+  .a{
+    color: white;
+    font-size: 15px;
+    font-family: metropolis;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.445)
+  }
+  .b{
+    font-size: 40px;
+    font-family: metropolis;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.445)
+  }
+  .c{
+    font-size: 60px;
+    font-family: metropolis;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.445)
+  }
+  .d{
+    font-size: 80px;
+    font-family: metropolis;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.445)
+  }
+  .e{
+    font-size: 100px;
+    font-family: metropolis;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.445)
+  }
+  .f{
+    font-size: 120px;
+    font-family: metropolis;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.445)
+  }
+  p {color: white} p.a {color: white; text-shadow: black 0.1em 0.1em 0.2em} 
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+footer {
+	background-color: #33333398;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 40px;
+  
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+.nossascatagoriais{
+  font-size: 55px;
+  font-family: metropolis;
+}
+.inicio{
+  font-size: 35px;
+  font-family: metropolis;
+}
+.valores{
+  font-size: 25px;
+  font-family: metropolis;
+}
+.textoimagema{
+  font-size: 15px;
+  right: 950px;
+  top: 120px;
+
+}
+div > header {
+   height: 50px;
+   display: flex;
+   align-items: center;
+}
+.textocategoriab{
+font-size: 20px;
+font-family: metropolis;
+}
+.botao {
+  text-align: right;
+ font-family: metropolis;
+ font-size: 25px;
+ border: 1px solid yellow;
+ background-color: rgba(255, 0, 0, 0.479);
+ text-shadow: #fff;
+ font-display: yellow;
+ border-width: 2px;
+ background-size: cover;
+}
+.formulario{
+  background-color: #0201007c;
+  font-family: metropolis;
+  font-size: 15px;
+  text-align: center;
+  font-display: yellow;
+}
+.logo{
+  position: relative;
+}
